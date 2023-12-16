@@ -5,4 +5,10 @@
 
 [Merging and patches](https://jneem.github.io/merging/) 
 - A more mathematical theory of version control, based on patches (diffs?) as opposed to snapshots.
+- Patches are line-based, not word-based, but tied to the particular file, which is a list of line indices and their contents?
+- Patches can be composed.
+- "Merging" is the process of unifying two different representations of a file via patch composition.
+- To merge, we need to find two patches (r, s) that bring the file representations (A, B) to a common one (0'). These patches (r, s) must also compose with the patches (p, q) that created (A, B) from (0) such that pr == qs.
+  - This implies that (r, s) precisely indicate which information from each file representation and its history is retained in the final merge.  
+- However, merges are not unique. 
 
