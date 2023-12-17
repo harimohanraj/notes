@@ -10,5 +10,6 @@
 - "Merging" is the process of unifying two different representations of a file via patch composition.
 - To merge, we need to find two patches (r, s) that bring the file representations (A, B) to a common one (0'). These patches (r, s) must also compose with the patches (p, q) that created (A, B) from (0) such that pr == qs.
   - This implies that (r, s) precisely indicate which information from each file representation and its history is retained in the final merge.  
-- However, merges are not unique. 
+- However, merges are not unique, and reconciling *what* a merge should produce often requires semantic information about the lines (i.e. which line should come first in a list of instructions?) or requires the user to make a choice.
+- Ideally, a merge should be "perfect" / "regretless", meaning 
 
