@@ -11,5 +11,9 @@ Linking is the process of collecting and combining various pieces of code and da
   - Relocatable: binary code and data that can be combined with other relocatable object files at compile time to produce an executable object file.
   - Executable: binary code and data that can be loaded into memory and executed.
   - Shared: relocatable object that can be loaded and linked dynamically at load (copied into memory) or run (executing code) time.
-- Object files contain binary data (machine code). 
+- Object files contain binary data (machine code).
+
+- `.a` are static libraries, which are like a collection of shared objects. A linker will only pick out the stuff from this static library that is actually used in a program (by matching symbols, I guess?). So for stuff in the C standard library, you'd link `libc.a` and then the linker would only pick out the stuff you're using.
+
+
 
