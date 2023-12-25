@@ -1,0 +1,5 @@
+- Making a font
+  - It would be fun and interesting to make a font out of my handwriting, which when I take the time can be closer to somewhat imperfect typewriter. Also, I really love the old-school 
+  - https://kokorobot.ca/site/making_a_font.html
+  - https://berkeleygraphics.com/typefaces/berkeley-mono/
+  - http://www.canonical.org/~kragen/oilpencil/making.html
