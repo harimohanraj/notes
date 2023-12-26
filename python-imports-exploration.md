@@ -9,7 +9,7 @@
 
 ## importlib.resources 
 
-- **Module**: 
+- **Module**: A file containing Python definitions and statements.
 - **Package**:
 - **Resource**: file-like resources in a module or a package, can be text or binary.
 - 
