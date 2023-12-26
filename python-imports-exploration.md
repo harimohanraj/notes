@@ -17,5 +17,7 @@
 
 ## Resources
 
+[Modules and Packages](https://www.youtube.com/watch?v=0oTh1CXRaQ0)
+https://alone-djangonaut.com/how-pythons-import-machinery-works
 [https://realpython.com/python-import](https://realpython.com/python-import/#example-factory-method-with-namespace-packages).
 
