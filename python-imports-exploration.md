@@ -10,7 +10,7 @@
 ## importlib.resources 
 
 - **Module**: A file containing Python definitions and statements.
-- **Package**:
+- **Package**: A collection of related modules, (typically) nested in the same directory, which can then be referenced under a common namespace using dot notation.
 - **Resource**: file-like resources in a module or a package, can be text or binary.
 - 
 
