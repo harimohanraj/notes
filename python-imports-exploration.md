@@ -5,6 +5,7 @@
 - Can we collapse dependencies that we are using the reduce code maintenance burden?
 - Can we implement something akin to hot reloading in a running Python process?
 - Can we develop a plugin system?
+- Can we load modules from places *other* than the local filesystem?
 
 
 ## importlib.resources 
