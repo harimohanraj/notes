@@ -21,4 +21,5 @@
 - https://alone-djangonaut.com/how-pythons-import-machinery-works
 - [https://realpython.com/python-import](https://realpython.com/python-import/#example-factory-method-with-namespace-packages)
 - https://github.com/breuleux/jurigged/tree/master
+- https://github.com/julvo/reloading
 
